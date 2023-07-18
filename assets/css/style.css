@@ -1,0 +1,338 @@
+html {
+  overflow-x: hidden;
+  width: 100vw;
+}
+/*body { overflow-x: hidden }*/
+  /*body {*/
+  /*  overflow-x: hidden;*/
+  /*}*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: unset;
+}
+
+.lh-1 {line-height: 1 !important;}
+.lh-12 {line-height: 1.2 !important;}
+.ls-i {letter-spacing: initial;}
+
+.v-btn {
+  letter-spacing: initial !important;
+}
+
+p {
+  /*line-height: 1.2 !important;*/
+  margin-bottom: unset !important;
+}
+a, .v-application a {
+  color: unset !important;
+  text-decoration: unset;
+}
+
+.w-100 {width: 100%}
+.w-100vw {width: 100vw}
+.h-100 {height: 100%}
+.h-100vh {height: 100vh}
+
+.gotham-book {font-family: Montserrat-Regular, serif;}
+.gotham-medium {font-family: Montserrat-Medium, serif;}
+.gotham-light {font-family: Montserrat-Light, serif;}
+.gotham-bold {font-family: Montserrat-Bold, serif;}
+.a-caslon {font-family: ACaslonPro-Italic, serif;}
+.acaslon-pro-italic {
+  font-family: 'ACaslonPro-Italic';
+  font-weight: 100;
+}
+
+  .avenir {font-family: AvenirLight, serif;}
+  .avenir-medium {font-family: AvenirMedium, serif;}
+  .avenir-heavy {font-family: AvenirHeavy, serif;}
+  .avenir-black {font-family: AvenirBlack, serif;}
+
+  .dark-title {color: #3C3C3B}
+  .dark-border {border-color: #3C3C3B}
+  .dark-green-text {color: #808080}
+  .light-gray-text {color: #BABAB9}
+  .yellow-text {color: #FCCE60}
+  .light-white-text {color: rgba(255, 255, 255, 0.5)}
+
+  .green-background {background: #50523C}
+  .black-background {background-color: #3C3C3B}
+  .yellow-background {background-color: #FCCE60}
+  .white-background {background-color: #fff}
+  .grey-background {background-color: #F1F1F1}
+
+  .white-rectangle {
+    background-color: #fff;
+    min-width: 250px;
+  }
+
+  .title-color { color: #3c3c3b }
+
+  .font-100pt {font-size: 100pt;}
+  .font-90pt {font-size: 90pt;}
+  .font-80pt {font-size: 80pt;}
+  .font-70pt {font-size: 70pt;}
+  .font-60pt {font-size: 60pt;}
+  .font-50pt {font-size: 50pt;}
+  .font-40pt {font-size: 40pt;}
+  .font-38pt {font-size: 38pt;}
+  .font-36pt {font-size: 36pt;}
+  .font-34pt {font-size: 34pt;}
+  .font-32pt {font-size: 32pt;}
+  .font-30pt {font-size: 30pt;}
+  .font-28pt {font-size: 28pt;}
+  .font-25pt {font-size: 25pt;}
+  .font-24pt {font-size: 24pt;}
+  .font-22pt {font-size: 22pt;}
+  .font-20pt {font-size: 20pt;}
+  .font-18pt {font-size: 18pt;}
+  .font-16pt {font-size: 16pt;}
+  .font-15pt {font-size: 15pt;}
+  .font-14pt {font-size: 14pt;}
+  .font-13pt {font-size: 13pt;}
+  .font-12pt {font-size: 12pt;}
+  .font-11pt {font-size: 11pt;}
+  .font-10pt {font-size: 10pt;}
+  .font-8pt {font-size: 8pt;}
+  .font-7pt {font-size: 7pt;}
+  .font-6pt {font-size: 6pt;}
+
+.line-80pt {line-height: 80pt;}
+.line-70pt {line-height: 72pt;}
+.line-60pt {line-height: 60pt;}
+.line-50pt {line-height: 50pt;}
+.line-40pt {line-height: 40pt;}
+.line-36pt {line-height: 36pt;}
+.line-30pt {line-height: 30pt;}
+.line-18pt {line-height: 18pt;}
+
+.header-form {
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: -100px;
+}
+.dialog-form {
+  max-width: 300px;
+}
+.dialog-logo {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+}
+.close-button {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.header-image {
+  height: 100vh;
+}
+
+.text-center {text-align: center;}
+.text-end {
+  text-align: end !important;
+}
+.underline {text-decoration: underline;}
+.border-bottom { border-bottom: 1px solid #000}
+
+.description-divider {
+  position: absolute;
+  left: 90px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background: #E16E49;
+  color: #fff;
+}
+
+.sticky {
+  position: sticky;
+  top: 240px;
+  margin-bottom: 180px;
+}
+.v-dialog {overflow: visible}
+
+#acacia {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+  /* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.top-line, .bottom-line {
+  width: 60%;
+  height: 2px;
+  background: #fff;
+}
+.top-line {margin-bottom: 12px;}
+.bottom-line {margin-top: 24px;}
+#contact .top-line, #contact .bottom-line {background: #E16E49 !important;}
+#contact .bottom-line {margin-top: 12px;}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+
+.model-title {
+  font-family: Montserrat-Light, serif;
+  color: #62553e;
+}
+
+  /***********/
+/* lgAndUp */
+/***********/
+@media screen and (max-width: 1904px) {
+}
+
+@media screen and (min-width: 1600px) {}
+
+/***********/
+/* sm */
+/***********/
+@media screen and (max-width: 960px) {
+  .description-divider {
+    left: 35px;
+  }
+  .close-button {
+    top: -40px;
+    right: 0px;
+  }
+  .header-image {
+    /*height: 100%;*/
+  }
+  .header-form {
+    /*margin-bottom: 0;*/
+  }
+  #description {
+    margin-top: 42px;
+  }
+  .sticky {
+    margin-bottom: unset;
+  }
+  #main-title {
+    margin-top: 100px;
+  }
+}
+
+  /***********/
+/* xsOnly */
+/***********/
+@media screen and (max-width: 600px) {
+  #acacia {
+    width: 30px;
+  }
+  .header-form {
+    /*position: absolute !important;*/
+    /*bottom: -40px;*/
+    /*right: 7px;*/
+  }
+  .white-rectangle {
+    background-color: #fff;
+    min-width: 210px;
+  }
+  .description-divider {
+    position: unset;
+    left: 0;
+    display: none !important;
+  }
+  .header-image {
+    /*height: 100%;*/
+  }
+  #description {
+    margin-top: 82px;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .header-image {
+    height: 70vh;
+  }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .header-image {
+    height: 90vh;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .header-image {
+    height: 60vh;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1366px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .header-image {
+    height: 60vh;
+  }
+}

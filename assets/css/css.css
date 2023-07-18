@@ -1,0 +1,52 @@
+a {
+  text-decoration: unset !important;
+}
+.v-dialog {overflow: visible}
+#contact-form .v-text-field--outlined > .v-input__control > .v-input__slot {
+  min-height: 40px !important;
+  background: #F5F5F5;
+}
+#contact-form .v-text-field--solo > .v-input__control > .v-input__slot {
+  min-height: 40px !important;
+  background: #F5F5F5;
+}
+#brochure-form .v-text-field--solo > .v-input__control > .v-input__slot {
+  margin-bottom: 3px;
+  min-height: 40px !important;
+  background: #F5F5F5;
+}
+#brochure-form .v-text-field.v-text-field--enclosed .v-text-field__details {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+#contact-section .v-text-field.v-text-field--enclosed .v-text-field__details {
+  margin-bottom: 0;
+}
+#contact-form .v-text-field--solo > .v-input__control > .v-input__slot {
+  margin-bottom: 0;
+}
+
+#landing-carousel .v-window__prev {
+  width: 100%;
+  background: unset !important;
+}
+#landing-carousel .v-window__prev div {
+  position: absolute;
+  right: 35px;
+  top: -75px;
+  color: #fff;
+  font-size: 20pt;
+  text-shadow: 0 0 10px #000000;
+  font-family: 'ACaslonPro-Italic', serif;
+  cursor: pointer;
+}
+#landing-carousel .v-window__next div {
+  position: absolute;
+  bottom: -80px;
+  left: -98px;
+  color: #fff;
+  font-size: 20pt;
+  text-shadow: 0 0 10px #000000;
+  font-family: 'ACaslonPro-Italic', serif;
+  cursor: pointer;
+}
